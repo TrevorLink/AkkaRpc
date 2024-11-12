@@ -3,10 +3,7 @@ import akka.actor.ActorRef;
 import service.RpcService;
 import service.RpcServiceImpl;
 
-/**
- * @author huangyuyao
- * @date 2024/11/12
- */
+
 public class AkkaRpcServerApplication {
    public static void main(String[] args) {
       RpcServiceImpl demoService = new RpcServiceImpl();

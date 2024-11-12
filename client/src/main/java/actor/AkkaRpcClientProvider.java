@@ -3,8 +3,8 @@ package actor;
 import java.lang.reflect.Proxy;
 
 /**
- * @author huangyuyao
- * @date 2024/11/12
+ * RPC客户端实例化
+ * @param <T> 代理的接口类
  */
 public class AkkaRpcClientProvider<T> {
 
